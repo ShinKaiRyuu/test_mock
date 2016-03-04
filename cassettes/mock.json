@@ -1,0 +1,184 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "body": null,
+                "headers": {
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "Accept-Encoding": [
+                        "gzip, deflate"
+                    ],
+                    "Accept": [
+                        "*/*"
+                    ],
+                    "User-Agent": [
+                        "python-requests/2.7.0 CPython/2.7.10 Windows/8"
+                    ]
+                },
+                "method": "GET",
+                "uri": "http://localhost:8888/mockhttp/zingfit_api/important_data"
+            },
+            "response": {
+                "status": {
+                    "message": "OK",
+                    "code": 200
+                },
+                "headers": {
+                    "date": [
+                        "Fri, 04 Mar 2016 11:52:17 GMT"
+                    ],
+                    "content-length": [
+                        "44"
+                    ],
+                    "content-type": [
+                        "text/html; charset=UTF-8"
+                    ],
+                    "server": [
+                        "WSGIServer/0.1 Python/2.7.10"
+                    ]
+                },
+                "body": {
+                    "string": "{\"account\": \"10000\", \"outstanding\": \"10.00\"}"
+                }
+            }
+        },
+        {
+            "request": {
+                "body": null,
+                "headers": {
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "Accept-Encoding": [
+                        "gzip, deflate"
+                    ],
+                    "Accept": [
+                        "*/*"
+                    ],
+                    "User-Agent": [
+                        "python-requests/2.7.0 CPython/2.7.10 Windows/8"
+                    ]
+                },
+                "method": "GET",
+                "uri": "http://localhost:8888/mockhttp/zingfit_api/important_data2"
+            },
+            "response": {
+                "status": {
+                    "message": "Internal Server Error",
+                    "code": 500
+                },
+                "headers": {
+                    "date": [
+                        "Fri, 04 Mar 2016 11:52:18 GMT"
+                    ],
+                    "content-length": [
+                        "5"
+                    ],
+                    "content-type": [
+                        "text/html; charset=UTF-8"
+                    ],
+                    "server": [
+                        "WSGIServer/0.1 Python/2.7.10"
+                    ]
+                },
+                "body": {
+                    "string": "ERROR"
+                }
+            }
+        },
+        {
+            "request": {
+                "body": null,
+                "headers": {
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "Accept-Encoding": [
+                        "gzip, deflate"
+                    ],
+                    "Accept": [
+                        "*/*"
+                    ],
+                    "User-Agent": [
+                        "python-requests/2.7.0 CPython/2.7.10 Windows/8"
+                    ]
+                },
+                "method": "GET",
+                "uri": "http://localhost:8888/mockhttp/zingfit_api/important_data3"
+            },
+            "response": {
+                "status": {
+                    "message": "OK",
+                    "code": 200
+                },
+                "headers": {
+                    "date": [
+                        "Fri, 04 Mar 2016 11:52:19 GMT"
+                    ],
+                    "content-length": [
+                        "2"
+                    ],
+                    "content-type": [
+                        "text/html; charset=UTF-8"
+                    ],
+                    "server": [
+                        "WSGIServer/0.1 Python/2.7.10"
+                    ]
+                },
+                "body": {
+                    "string": "OK"
+                }
+            }
+        },
+        {
+            "request": {
+                "body": "{\"account\": \"10000\", \"outstanding\": \"10.00\"}",
+                "headers": {
+                    "Content-Length": [
+                        "44"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "Accept-Encoding": [
+                        "gzip, deflate"
+                    ],
+                    "Accept": [
+                        "*/*"
+                    ],
+                    "User-Agent": [
+                        "python-requests/2.7.0 CPython/2.7.10 Windows/8"
+                    ]
+                },
+                "method": "POST",
+                "uri": "http://localhost:8888/mockhttp/zingfit_api/important_data4"
+            },
+            "response": {
+                "status": {
+                    "message": "OK",
+                    "code": 200
+                },
+                "headers": {
+                    "date": [
+                        "Fri, 04 Mar 2016 11:52:20 GMT"
+                    ],
+                    "content-length": [
+                        "12"
+                    ],
+                    "content-type": [
+                        "text/html; charset=UTF-8"
+                    ],
+                    "server": [
+                        "WSGIServer/0.1 Python/2.7.10"
+                    ]
+                },
+                "body": {
+                    "string": "{\"id\": \"10\"}"
+                }
+            }
+        }
+    ]
+}
