@@ -1,5 +1,5 @@
 import vcr
-import urllib2
+
 import time
 from pretenders.client.http import HTTPMock
 from pretenders.common.constants import FOREVER
